@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  Crankycyclops
+ * @package   Crankycyclops_AddToCartModal
+ * @author    James Colannino
+ * @copyright Copyright (c) 2018 James Colannino
+ * @license   https://opensource.org/licenses/OSL-3.0 OSL v3
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+	<module name="Crankycyclops_AddToCartModal" setup_version="1.0.0" />
+</config>

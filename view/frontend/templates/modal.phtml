@@ -1,0 +1,52 @@
+<?php
+/**
+ * @category  Crankycyclops
+ * @package   Crankycyclops_AddToCartModal
+ * @author    James Colannino
+ * @copyright Copyright (c) 2018 James Colannino
+ * @license   https://opensource.org/licenses/OSL-3.0 OSL v3
+ */
+
+$product = $block->getProduct();
+?>
+
+<div id="add-to-cart-modal" data-mage-init='{"addToCartModal": <?= str_replace("'", "&apos;", $block->getProductDataJson()); ?>}'>
+
+	<div class="content">
+
+		<h3>You added <span class="name"></span> to your cart.</h3>
+
+		<div class="product-details-wrapper">
+
+			<div class="product-details-mobile">
+				<span class="sku"></span>
+				<span class="selected-option-value" style="display: none;"></span>
+				<span class="price"></span>
+			</div>
+
+			<div class="product-image"></div>
+
+			<div class="product-details">
+				<span class="sku"></span>
+				<span class="selected-option-value" style="display: none;"></span>
+				<span class="price"></span>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="buttons">
+
+		<button type="button" title="Proceed to Checkout" class="action primary checkout">
+			<span>Proceed to Checkout</span>
+		</button>
+
+		<button type="button" title="Continue Shopping" class="action continue-shopping">
+			<span>Continue Shopping</span>
+		</button>
+
+	</div>
+
+</div>
+

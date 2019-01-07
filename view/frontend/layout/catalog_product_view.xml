@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  Crankycyclops
+ * @package   Crankycyclops_AddToCartModal
+ * @author    James Colannino
+ * @copyright Copyright (c) 2018 James Colannino
+ * @license   https://opensource.org/licenses/OSL-3.0 OSL v3
+ */
+-->
+
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+	<head>
+		<css src="Crankycyclops_AddToCartModal::css/add-to-cart-modal.css" />
+	</head>
+
+	<body>
+		<referenceContainer name="content">
+			<block class="Crankycyclops\AddToCartModal\Block\ProductData" template="Crankycyclops_AddToCartModal::modal.phtml" />
+		</referenceContainer>
+	</body>
+
+</page>
+
