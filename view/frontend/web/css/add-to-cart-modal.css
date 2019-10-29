@@ -1,3 +1,7 @@
+#add-to-cart-modal {
+	display: none;
+}
+
 #add-to-cart-modal .product-image img {
 	width: auto;
 }
